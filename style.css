@@ -8,7 +8,7 @@ body {
   Margin fixes this. */
   width: 780px;
   margin: 0 auto; 
-  background-color: rgb(255,246,242);
+  background-color: #FFF;
   font-family: 'Futura', sans-serif;
   }
  
@@ -33,7 +33,7 @@ header {
 }
  
 h1, h2 {
-  font-family: 'Flamenco', cursive;
+
 }
  
 h2 span {
