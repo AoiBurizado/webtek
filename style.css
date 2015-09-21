@@ -1,50 +1,39 @@
-/* Filename: style.css 
-   Date Modified: 14/09/2015
-*/
-
+/* Defines the size of the body (where the content will be located), general font-style and background color for the body*/
 body {
-  /* This says how body should look like.
-  It shall be in the midst compiled. 
-  Margin fixes this. */
-  width: 780px;
+  width: 700px;
   margin: 0 auto; 
-  background-color: #FFF;
-  font-family: 'Futura', sans-serif;
+  background-color: #D7DCE0;
+  font-family: 'Arial', sans-serif;
   }
  
+/* This will be the area where the text is located on the site when written inside sections*/  
 figure {
   text-align: center;
   margin: 0 auto; 
   margin-top: 30px;
   margin-bottom:20px;
  }
- 
+
+/* This is the area around the figure, and creates a box shape around the text*/ 
 section {
-  border: 1px dashed;
+  background-color: #FFF;
+  border: 1px solid #999;
+  border-radius: 8px;
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom:20px;
 }
- 
-header {
-  height: 100px;
-  margin-bottom: 10px;
-  margin-top: 40px;
-}
- 
-h1, h2 {
 
-}
- 
-h2 span {
- font-size: small; 
-}
- 
-ul {
-  padding-left: 18px;
+/*Styles in the form of color for the most used headers. h1 is darker than the rest to stand out more.*/
+h1 {
+  color: #666;
 }
 
-/* It only applies to the list items that are the pages */
+h2, h3, h4, h5 {
+  color: #24C6FF;
+}
+
+/*Formatting of how the lists will look like inside a section*/
 section>ol>li {
     margin-bottom: 20px;
 }
@@ -53,9 +42,3 @@ section>ol>li {
     display: block;  
     margin-bottom: 10px;
 }
- 
- footer {
- margin-top: 100px;
- font-size: 13px;
- 
- }
