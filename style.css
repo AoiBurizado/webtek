@@ -5,6 +5,27 @@ body {
   background-color: #f0f0f0;
   font-family: 'Arial', sans-serif;
   }
+
+/*Makes the header scroll with the page*/
+.header-cont {
+    width:100%;
+    position:fixed;
+    background-color:#f0f0f0;
+    top:0px;
+}
+
+.header {
+    height:50px;
+    background-color:#f0f0f0;
+    width: 700px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+}
+
+/*To properly separate header from content*/
+.content {
+  padding-top: 100px;
+}
  
 /* This will be the area where the text is located on the site when written inside sections*/  
 figure {
@@ -15,6 +36,7 @@ figure {
  }
 
 /* This is the area around the figure, and creates a box shape around the text*/ 
+
 section {
   background-color: #FFF;
   border: 1px solid #999;
