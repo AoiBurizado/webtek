@@ -6,20 +6,15 @@ body {
   font-family: 'Arial', sans-serif;
   }
 
-/*Makes the header scroll with the page*/
-.header-cont {
-    width:100%;
-    position:fixed;
-    background-color:#f0f0f0;
-    top:0px;
-}
-
+/*Makes the header static at the top of the page*/
 .header {
     height:50px;
+    top: 0px;
+    position: fixed;
     background-color:#f0f0f0;
     width: 700px;
     border-bottom: 1px solid #999;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /*To properly separate header from content*/
