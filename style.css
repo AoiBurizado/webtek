@@ -2,7 +2,7 @@
 body {
   width: 700px;
   margin: 0 auto; 
-  background-color: #E6E6E6;
+  background-color: #f0f0f0;
   font-family: 'Arial', sans-serif;
   }
  
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2, h3, h4, h5 {
-  color: #24C6FF;
+  color: #7bc043;
 }
 
 /*Formatting of how the lists will look like inside a section*/
@@ -41,4 +41,8 @@ section>ol>li {
 .title{
     display: block;  
     margin-bottom: 10px;
+}
+
+footer {
+  padding-bottom: 20px;
 }
