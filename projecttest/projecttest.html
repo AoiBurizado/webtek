@@ -5,6 +5,8 @@
 <link rel="stylesheet" type="text/css" href="webpagestyle.css">
 </head>
 <body>
+<div id="contentBackground">
+<div id="header">
 <img id="headerImage" src="logo.png">
 <div id="nav">
   <ul>
@@ -18,10 +20,12 @@
       <li><a href="">About us</a></li>
       <li><a href="">Sitemap</a></li>
     </ul></li>
-    <li><input id="search" placeholder="Search..."></li>
+    <li id="search"><input id="input" placeholder="Search..."></li>
   </ul>
 </div>
+</div>
 <br><br>
+<div id="content">
 <h2>Newest Reviews</h2>
 
 <div class="box">
@@ -76,12 +80,13 @@
 <b class="arrows" id="pageNumber">1</b>
 <img class="arrows" src="arrowright.png" onclick="changePage(currentPage + 1)">
 </div>
+</div>
+</div>
 
 <script src="search.js"></script>
 <script src="konamicode.js"></script>
 <script src="navbar.js"></script>
 <script src="logochange.js"></script>
-
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 var currentPage = 1;
 var entriesPerPage = 5;
-var input = document.getElementById("search");
+var input = document.getElementById("input");
 // list of all entries that match the search term
 var shownListElements = Array.prototype.slice.call(document.getElementsByClassName("box"));
 updateShownElements();
