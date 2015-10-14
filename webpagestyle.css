@@ -75,11 +75,20 @@ figure {
 	padding-bottom: 15px;
 }
 
+
 input {
   height: 25px;
-  border-radius: 5px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border-style: none;
   color: #676767;
 }
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
   ul {list-style: none;padding: 0px;margin: 0px;}
   ul li {display: block;float: left;}
   li ul {display: none;}
