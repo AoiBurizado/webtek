@@ -15,7 +15,7 @@ window.onkeydown = function(event) {
 
 function fun() {
 	var img = document.createElement("img");
-	img.src = "animegirl.gif";
+	img.src = "images/animegirl.gif";
 	img.id = "asdf";
 	img.style.position = "absolute";
 	document.body.appendChild(img);

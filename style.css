@@ -1,65 +1,100 @@
-/* Defines the size of the body (where the content will be located), general font-style and background color for the body*/
+
 body {
-  width: 700px;
-  margin: 0 auto; 
-  background-color: #f0f0f0;
-  font-family: 'Arial', sans-serif;
-  }
-
-/*Makes the header static at the top of the page*/
-.header {
-    height:50px;
-    top: 0px;
-    position: fixed;
-    background-color:#f0f0f0;
-    width: 700px;
-    border-bottom: 1px solid #999;
-    padding-bottom: 40px;
+	background-color: #444;
+	margin: 0 auto; 
+	text-decoration: #333;
+	width: 750px;
+	font-family: 'Calibri', sans-serif;
 }
 
-/*To properly separate header from content*/
-.content {
-  padding-top: 100px;
+#contentBackground {
+	top: 0;
+	background-color: #FFF8FA;
+	box-shadow: 15px 15px 15px #333;
 }
- 
-/* This will be the area where the text is located on the site when written inside sections*/  
+
+.box {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	margin-bottom:20px;
+}
+
 figure {
-  text-align: center;
-  margin: 0 auto; 
-  margin-top: 30px;
-  margin-bottom:20px;
- }
-
-/* This is the area around the figure, and creates a box shape around the text*/ 
-
-section {
-  background-color: #FFF;
-  border: 1px solid #999;
-  border-radius: 8px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom:20px;
+	padding-top: 200px;
+	text-align: center;
+  	margin: 0 auto; 
+  	margin-top: 30px;
+  	margin-bottom:20px;
 }
 
-/*Styles in the form of color for the most used headers. h1 is darker than the rest to stand out more.*/
-h1 {
-  color: #666;
+#reviewBox {
+	width: 500px;
 }
 
-h2, h3, h4, h5 {
-  color: #7bc043;
+#content {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
-/*Formatting of how the lists will look like inside a section*/
-section>ol>li {
-    margin-bottom: 20px;
+#nav {
+
+	width: 700px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background: linear-gradient(#FF85AD, #FF6699);
+	z-index: 1;
+	top: 250px;
+
 }
 
-.title{
-    display: block;  
-    margin-bottom: 10px;
+#nav ul {
+	padding-left: 10%;
 }
 
-footer {
-  padding-bottom: 20px;
+#nav ul ul {
+	padding: 0;
 }
+
+#search {
+	padding-top: 2%;
+	padding-left: 8%;
+}
+
+#header {
+
+}
+
+#headerImage {
+	width: 500px;
+	height: 220px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+input {
+  height: 25px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border-style: none;
+  color: #676767;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+  ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;float: left;}
+  li ul {display: none;}
+  ul li a {display: block; padding: 13px 25px 13px 25px; font-size: 20px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background:  #FF85AD;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background:  #FF85AD;}
+  li:hover li a:hover {background:  #FF9FC5;}
