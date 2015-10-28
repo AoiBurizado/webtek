@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Dating sim</title>
-<link rel="stylesheet" type="text/css" href="webpagestyle.css">
+<meta charset="UTF-8">
+<title>Project test</title>
+<link rel="stylesheet" type="text/css" href="../webpagestyle.css">
 </head>
 <body>
 <div id="contentBackground">
@@ -10,15 +11,15 @@
 <img id="headerImage" src="logo.png">
 <div id="nav">
   <ul>
-    <li><a href="">Home</a></li>
+    <li><a href="../index.html">Home</a></li>
     <li><a href="#">Categories</a><ul>
-      <li><a href="">Dating Simulator</a></li>
-      <li><a href="">RPG</a></li>
-      <li><a href="">Visual Novel</a></li>
+      <li><a href="dating_sim.html">Dating Simulator</a></li>
+      <li><a href="rpg.html">RPG</a></li>
+      <li><a href="visual_novel.html">Visual Novel</a></li>
     </ul></li>
     <li><a href="#">About us</a><ul>
-      <li><a href="">About us</a></li>
-      <li><a href="">Sitemap</a></li>
+      <li><a href="../about.html">About us</a></li>
+      <li><a href="../sitemap.html">Sitemap</a></li>
     </ul></li>
     <li id="search"><input id="input" placeholder="Search..."></li>
   </ul>
@@ -26,56 +27,39 @@
 </div>
 <br><br>
 <div id="content">
-<h2>Dating sim<h2>
-<h2>Newest Reviews</h2>
+<!-- Bytt ut denne etter hvilken side man er på. F. eks. RPG burde ha <h2>RPG reviews</h2>-->
 
+
+<h2>Dating Simulator</h2>
+
+<!--her skal det skrives review, helst bilde øverst, teksat i midten, video under-->
+<!-- bruk div=id"reviewBox" for review sider, og div class="box" for thumbnailsider-->
+<p>The most recent reviews within this category is displayed below. </p>
+
+<!-- LOVEPLUS -->
 <div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>ASDF</reviewtitle></h3>
-  <p><reviewpreview>I can't stop this feeling Deep inside of me Girl, you just don't realize What you do to me</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>GGG</reviewtitle></h3>
-  <p><reviewpreview>When you hold me In your arms so tight You let me know Everything's all right</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>OOOHH</reviewtitle></h3>
-  <p><reviewpreview>I'm hooked on a feeling I'm high on believing That you're in love with me</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>nei</reviewtitle></h3>
-  <p><reviewpreview>Lips as sweet as candy Its taste is on my mind Girl, you got me thirsty For another cup o' wine</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>jo</reviewtitle></h3>
-  <p><reviewpreview>Got a bug from you girl But I don't need no cure I'll just stay a victim If I can for sure</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>idk</reviewtitle></h3>
-  <p><reviewpreview>All the good love When we're all alone Keep it up girl Yeah, you turn me on</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>lol</reviewtitle></h3>
-  <p><reviewpreview>I'm hooked on a feeling I'm high on believing That you're in love with me</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>qq</reviewtitle></h3>
-  <p><reviewpreview>I'm hooked on a feeling And I'm high on believing That you're in love with me</reviewpreview>
-    <br><a href="">Link...</a></p>
-</div>
-<div class="box">
-  <h3><img src="thumbnail.png"><reviewtitle>gg</reviewtitle></h3>
-  <p><reviewpreview>I said I'm hooked on a feeling And I'm high on believing That you're in love with meI'm hooked on a feeling
-</reviewpreview>
+  <h3><img src="images/img_loveplus.png" height="100px" width="25%"><reviewtitle>Loveplus</reviewtitle></h3>
+  <p><reviewpreview>Do you want to date a japanese highschool girl? Want to get it on with your senpai? Or maybe you are more interested in that cute underclassman? Maybe even your own classmate? Then this game is something you probably will enjoy. </reviewpreview>
     <br><a href="">Link...</a></p>
 </div>
 
+<!-- LOVEPLUS -->
+<div class="box">
+  <h3><img src="images/img_loveplus.png" height="100px" width="25%"><reviewtitle>Loveplus</reviewtitle></h3>
+  <p><reviewpreview>Do you want to date a japanese highschool girl? Want to get it on with your senpai? Or maybe you are more interested in that cute underclassman? Maybe even your own classmate? Then this game is something you probably will enjoy. </reviewpreview>
+    <br><a href="">Link...</a></p>
+</div>
+
+<!-- LOVEPLUS -->
+<div class="box">
+  <h3><img src="images/img_loveplus.png" height="100px" width="25%"><reviewtitle>Loveplus</reviewtitle></h3>
+  <p><reviewpreview>Do you want to date a japanese highschool girl? Want to get it on with your senpai? Or maybe you are more interested in that cute underclassman? Maybe even your own classmate? Then this game is something you probably will enjoy. </reviewpreview>
+    <br><a href="">Link...</a></p>
+</div>
+
+
+
+<!--Denne kan være som-->
 <div id="arrows">
 <img class="arrows" src="arrowleft.png" onclick="changePage(currentPage - 1)">
 <b class="arrows" id="pageNumber">1</b>
@@ -83,6 +67,10 @@
 </div>
 </div>
 </div>
+
+<!--
+<footer> Made by "The Internettsitemakers"!</footer>
+-->
 
 <script src="search.js"></script>
 <script src="konamicode.js"></script>
