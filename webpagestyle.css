@@ -19,6 +19,12 @@ body {
   	margin-bottom:20px;
 }
 
+.textWrap {
+	float: left;
+	clear: left;
+	margin: 10px;
+}
+
 #reviewBox {
 	width: 600px;
 	padding-left: 10%;
