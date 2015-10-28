@@ -9,23 +9,21 @@
   <!-- Top section, will look similar on all pages-->
     <div id="contentBackground">
     <div id="header">
-    <img id="headerImage" src="logo.png">
+    <img id="headerImage" src="../images/logo.png">
     <div id="nav">
-      <ul>
-        <li><a href="projecttest.html">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <ul>
-          <li><a href="">Dating Sim</a></li>
-          <li><a href="">RPG</a></li>
-          <li><a href="">Visual Novel</a></li>
-        </ul>
-        <li><a href="#">About us</a>
-        <ul>
-          <li><a href="">About us</a></li>
-          <li><a href="">Sitemap</a></li>
-        </ul>
-        <li id="search"><input id="input" placeholder="Search..."></li>
-      </ul>
+    <ul>
+      <li><a href="projecttest.html">Home</a></li>
+      <li><a href="#">Categories</a><ul>
+        <li><a href="">Dating Sim</a></li>
+        <li><a href="">RPG</a></li>
+        <li><a href="">Visual Novel</a></li>
+      </ul></li>
+      <li><a href="#">About us</a><ul>
+        <li><a href="">About us</a></li>
+        <li><a href="">Sitemap</a></li>
+      </ul></li>
+      <li id="search"><input id="input" placeholder="Search..."></li>
+    </ul>
     </div>
     </div>
     <br><br>
@@ -58,18 +56,14 @@
 
       <p>Overall, I think “Mujaffa” is a compelling and challenging game, despite the flaws considering graphic and controllers. It makes the game a little frustrating from times to times, but overall you will enjoy the challenge and the game will deliver awarding moments.</p>
 
-      <!--Input multimedia-->
-      <div id="multimedia">
-        <iframe width="400" height="200" src="https://www.youtube.com/watch?v=lJEmypL8KBY" frameborder="0" allowfullscreen></iframe>
-      </div>
 
     </div>
 
     <!--Arrow navigation-->
     <div id="arrows">
-      <img class="arrows" src="arrowleft.png" onclick="changePage(currentPage - 1)">
+      <img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
       <b class="arrows" id="pageNumber">1</b>
-      <img class="arrows" src="arrowright.png" onclick="changePage(currentPage + 1)">
+      <img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
     </div>
     </div>
     </div>
@@ -79,10 +73,10 @@
     -->
 
     <!--Javascripts-->
-    <script src="search.js"></script>
-    <script src="konamicode.js"></script>
-    <script src="navbar.js"></script>
-    <script src="logochange.js"></script>
+    <script src="../scripts/search.js"></script>
+    <script src="../scripts/konamicode.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/logochange.js"></script>
 
   </body>
 </html>
