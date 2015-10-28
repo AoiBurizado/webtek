@@ -17,14 +17,13 @@ window.onkeydown = function(event) {
 }
 
 function fun() {
-	createPersonInterval = window.setInterval(function() {createPerson(people[currentPerson]);}, 200);
+	createPersonInterval = window.setInterval(function() {createPerson(people[currentPerson]);}, 750);
 	moveInterval = window.setInterval(move, 30);
 }
 
 function createPerson(name) {
 	var img = document.createElement("img");
-	img.src = "../images/running_" + people[i] + ".gif";
-	console.log(img.src);
+	img.src = "images/running_" + people[currentPerson] + ".gif";
 	img.className = "groupmembers";
 	img.style.position = "absolute";
 	document.body.appendChild(img);
@@ -35,14 +34,25 @@ function createPerson(name) {
 }
 
 function move() {
-	var left = document.getElementById("groupmembers").style.left;
-	left = left.substr(0, left.length - 2);
-	if (Number(left) > window.innerWidth) {
-		document.body.removeChild(document.getElementById("groupmembers"));
-		clearInterval(moveInterval);
-		konamiCounter = 0;
-		return;
+	var groupmembers = document.getElementsByClassName("groupmembers");
+	var removeIndex = -1;
+	for (var i = 0; i < groupmembers.length; i++) {
+		var left = groupmembers[i].style.left;
+		left = left.substr(0, left.length - 2);
+		if (Number(left) > window.innerWidth) {
+			removeIndex = i;
+		}
+		groupmembers[i].style.left = (Number(left) + 5) + "px";
+		groupmembers[i].style.top = document.body.scrollTop + window.innerHeight - 128 + "px";
+		if (removeIndex != -1) {
+			document.body.removeChild(groupmembers[removeIndex]);
+			removeIndex = -1;
+			if (groupmembers.length == 0) {
+				clearInterval(moveInterval);
+				konamiCounter = 0;
+				currentPerson = 0;
+				return;
+			}
+		}
 	}
-	document.getElementById("groupmembers").style.left = (Number(left) + 5) + "px";
-	document.getElementById("groupmembers").style.top = document.body.scrollTop + window.innerHeight - 128 + "px";
 }
