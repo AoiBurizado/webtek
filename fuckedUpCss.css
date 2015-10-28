@@ -1,0 +1,104 @@
+body {
+	background-color: #679;
+	margin: 40 auto; 
+	text-decoration: #143;
+	width: 400px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#contentBackground {
+	top: 30;
+	background-color: #7AF8FA;
+	box-shadow: 15px 15px 15px #333;
+}
+
+.box {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	margin-bottom:20px;
+}
+
+#reviewBox {
+	width: 600px;
+	padding-left: 10%;
+}
+
+#reviewPicture {
+	width: 500px;
+	height: 300px;
+	padding-left: 9%
+}
+
+#multimedia {
+	padding-top: 25px;
+	padding-left: 15%;
+}
+
+#content {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+#nav {
+	width: 700px;
+	height: 40px;
+	border-radius: 20px;
+	margin: 0 auto;
+	background: #1985BD, #22F299;
+	z-index: 1;
+	top: 3px;
+}
+
+#nav ul {
+}
+
+#nav ul ul {
+
+}
+
+#search {
+	padding-top: 22%;
+	padding-left: 88%;
+}
+
+#header {
+
+}
+
+#headerImage {
+	width: 3000px;
+	height: 20px;
+	padding-left: 2px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+
+input {
+  height: 25px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border-style: bold;
+  color: #121212;
+}
+
+input:focus {
+	border: 30px;
+	outline: groove;
+}
+
+footer {
+ 	color: #125632;
+ 	text-align: left;
+ }
+
+  ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;float: left;}
+  li ul {display: none;}
+  ul li a {display: block; padding: 13px 25px 13px 25px; font-size: 20px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background:  #FF85AD;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background:  #FF85AD;}
+  li:hover li a:hover {background:  #FF9FC5;}
