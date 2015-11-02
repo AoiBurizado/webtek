@@ -23,7 +23,7 @@ function fun() {
 
 function createPerson(name) {
 	var img = document.createElement("img");
-	img.src = "images/running_" + people[currentPerson] + ".gif";
+	img.src = root + "images/running_" + people[currentPerson] + ".gif";
 	img.className = "groupmembers";
 	img.style.position = "absolute";
 	document.body.appendChild(img);
