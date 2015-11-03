@@ -3,27 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>Mujaffa</title>
-    <link rel="stylesheet" type="text/css" href="webpagestyle.css">
+    <link rel="icon" type="image/png" href="../images/geimateicon.png">
+    <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
   </head>
   <body>
   <!-- Top section, will look similar on all pages-->
     <div id="contentBackground">
     <div id="header">
-    <img id="headerImage" src="logo.png">
+    <img id="headerImage" src="../images/logo.png">
     <div id="nav">
       <ul>
-        <li><a href="projecttest.html">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <ul>
-          <li><a href="">Dating Sim</a></li>
-          <li><a href="">RPG</a></li>
-          <li><a href="">Visual Novel</a></li>
-        </ul>
-        <li><a href="#">About us</a></li>
-        <ul>
-          <li><a href="">About us</a></li>
-          <li><a href="">Sitemap</a></li>
-        </ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Categories</a><ul>
+          <li><a href="../categories/dating_sim.html">Dating Sim</a></li>
+          <li><a href="../categories/rpg.html">RPG</a></li>
+          <li><a href="../categories/visual_novel.html">Visual Novel</a></li>
+        </ul></li>
+        <li><a href="#">About us</a><ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul></li>
         <li id="search"><input id="input" placeholder="Search..."></li>
       </ul>
     </div>
@@ -75,10 +74,10 @@
     -->
 
     <!--Javascripts-->
-    <script src="search.js"></script>
-    <script src="konamicode.js"></script>
-    <script src="navbar.js"></script>
-    <script src="logochange.js"></script>
+    <script src="../scripts/rootpathparser.js"></script>
+    <script src="../scripts/konamicode.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/logochange.js"></script>
 
   </body>
 </html>

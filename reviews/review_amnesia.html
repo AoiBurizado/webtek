@@ -3,23 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Project test</title>
-<link rel="stylesheet" type="text/css" href="webpagestyle.css">
+<link rel="icon" type="image/png" href="../images/geimateicon.png">
+<link rel="stylesheet" type="text/css" href="../webpagestyle.css">
 </head>
 <body>
 <div id="contentBackground">
 <div id="header">
-<img id="headerImage" src="logo.png">
+<img id="headerImage" src="../images/logo.png">
 <div id="nav">
   <ul>
-    <li><a href="">Home</a></li>
+    <li><a href="../index.html">Home</a></li>
     <li><a href="#">Categories</a><ul>
-      <li><a href="">Dating Sim</a></li>
-      <li><a href="">RPG</a></li>
-      <li><a href="">Visual Novel</a></li>
+      <li><a href="../categories/dating_sim.html">Dating Sim</a></li>
+      <li><a href="../categories/rpg.html">RPG</a></li>
+      <li><a href="../categories/visual_novel.html">Visual Novel</a></li>
     </ul></li>
     <li><a href="#">About us</a><ul>
-      <li><a href="">About us</a></li>
-      <li><a href="">Sitemap</a></li>
+      <li><a href="../aboutus/about.html">About us</a></li>
+      <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
     </ul></li>
     <li id="search"><input id="input" placeholder="Search..."></li>
   </ul>
@@ -30,17 +31,15 @@
 <!-- Bytt ut denne etter hvilken side man er på. F. eks. RPG burde ha <h2>RPG reviews</h2>-->
 <div id="reviewBox">
 
-<img src="loveplus.jpg" alt="lovepluscast" id="reviewPicture">
+	<img src="https://otomecafe.files.wordpress.com/2011/09/amnesia-front.jpg" alt="amnesia main worlds" height="100%" width="100%">
+
+	<p> <i>"You awaken to find your memories gone. To learn the truth behind your amnesia, you’ll choose from five romantic paths, each its own world. With 20+ endings, can you write the lasting love story you deserve, or will your love and life come to an end?"</i></p>
 
 <h2>Amnesia: Memories</h2>
 
 <!--her skal det skrives review, helst bilde øverst, teksat i midten, video under-->
 <!-- bruk div=id"reviewBox" for review sider, og div class="box" for thumbnailsider-->
 <p>Developed by Idea Factory under its Otome game brand Otomate, Amnesia: Memories is among one of the companies pioneering titles that finally gets a western release. And while Otoge or Otome games are meant to cater specifically toward a female audience, a male audience can also partake of them. The story puts players into the shoes of an unnamed female protagonist that has lost her memories after a strange incident. With help of mysterious young boy named Orion, the two work together to help make sense of the heroine’s past life, while trying not raise suspicion from friends and a boyfriend she never knew existed.</p>
-
-	<img src="https://otomecafe.files.wordpress.com/2011/09/amnesia-front.jpg" alt="amnesia main worlds" height="100%" width="100%">
-
-	<p> <i>"You awaken to find your memories gone. To learn the truth behind your amnesia, you’ll choose from five romantic paths, each its own world. With 20+ endings, can you write the lasting love story you deserve, or will your love and life come to an end?"</i></p>
 
 
 	<h4>Information</h4>
@@ -117,10 +116,10 @@
 <footer> Made by "The Internettsitemakers"!</footer>
 -->
 
-<script src="search.js"></script>
-<script src="konamicode.js"></script>
-<script src="navbar.js"></script>
-<script src="logochange.js"></script>
+<script src="../scripts/rootpathparser.js"></script>
+<script src="../scripts/konamicode.js"></script>
+<script src="../scripts/navbar.js"></script>
+<script src="../scripts/logochange.js"></script>
 
 </body>
 </html>
