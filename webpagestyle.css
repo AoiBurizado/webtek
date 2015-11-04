@@ -24,6 +24,7 @@ input:focus {
 footer {
  	color: #999;
  	text-align: center;
+ 	margin-bottom: 25px;
  }
 a {
 	color: #FF85AD;;
@@ -36,7 +37,7 @@ a {
 	width: 650px;
   	padding-left: 50px;
   	padding-right: 50px;
-  	height: 160px;
+  	height: 150px;
   	text-align: justify;
 }
 
@@ -48,23 +49,36 @@ a {
   	font-weight: bold;
   	margin-top: 30px;
   	margin-bottom: 30px;
-  	
+}
+
+.sitemap {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	margin-bottom: 30px;
+}
+
+.about {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	margin-bottom: 30px;
+  	text-align: justify;
 }
 
 .textWrap {
 	float: left;
 	clear: left;
 	margin-right: 10px;
-	
 }
 
 .reviewTitle {
-	font-size: 4;
-	font-style: bold;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .reviewPreview {
-
+	font-size: 16px;
 }
 
 
@@ -185,4 +199,5 @@ a {
 #thumbnailPicture {
 	height: 100px;
 	width: 28%;
+	margin-bottom: 30px;
 }

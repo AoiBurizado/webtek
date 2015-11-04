@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Project test</title>
-  <link rel="icon" type="image/png" href="../images/geimateicon.png">
-  <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
-</head>
-<body>
-<div id="contentBackground">
-<div id="header">
-<img id="headerImage" src="../images/logo.png">
-<div id="nav">
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="#">Categories</a><ul>
-      <li><a href="dating_sim.html">Dating Simulator</a></li>
-      <li><a href="rpg.html">RPG</a></li>
-      <li><a href="visual_novel.html">Visual Novel</a></li>
-    </ul></li>
-    <li><a href="#">About us</a><ul>
-      <li><a href="../aboutus/about.html">About us</a></li>
-      <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
-    </ul></li>
-    <li id="search"><input id="input" placeholder="Search..."></li>
-  </ul>
-</div>
-</div>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Dating Simulator Reviews
+    </title>
+    <link rel="icon" type="image/png" href="../images/geimateicon.png">
+    <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
+  </head>
+  <body>
+    <div id="contentBackground">
+      <div id="header">
+      <img id="headerImage" src="../images/logo.png">
+        <div id="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Categories</a>
+            <ul>
+              <li><a href="dating_sim.html">Dating Simulator</a></li>
+              <li><a href="rpg.html">RPG</a></li>
+              <li><a href="visual_novel.html">Visual Novel</a></li>
+            </ul></li>
+            <li><a href="#">About us</a>
+            <ul>
+              <li><a href="../aboutus/about.html">About us</a></li>
+              <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
+            </ul></li>
+            <li id="search"><input id="input" placeholder="Search..."></li>
+          </ul>
+        </div>
+      </div>
 
-<div id="content">
-
+      <div id="content">
         <div class="info">
           Dating Simulator Reviews
         </div>
 
         <!-- Love plus  -->
         <div class="box">
-
           <img class="textWrap" id="thumbnailPicture" src="../images/img_loveplus.jpg" alt="Love Plus">
-          <p><reviewTitle>LovePlus</reviewTitle>
-          <br>
-          <reviewPreview>Do you want to date a japanese highschool girl? Want to get it on with your senpai? Or maybe you are more interested in that cute underclassman? Maybe even your own classmate? Then this game is something you probably will enjoy.</reviewPreview>
-          <br>
-          <a href="../reviews/review_loveplus.html">Read more</a></p>
+          <div class="reviewTitle">
+            LovePlus
+          </div>
+          <div class="reviewPreview">
+            Do you want to date a japanese highschool girl? Want to get it on with your senpai? Or maybe you are more interested in that cute underclassman? Maybe even your own classmate? Then this game is something you probably will enjoy.
+          </div>
+          <a href="../reviews/review_loveplus.html">Read more</a>
         </div>
 
         <!-- Yandere Simulator -->
         <div class="box">
           <img class="textWrap" id="thumbnailPicture" src="../images/img_yanderesimulator.png" alt="Yandere Simulator">
-          <p><reviewTitle>Yandere Simulator</reviewTitle>
-
-          <br>
-          <reviewPreview>As a jealous schoolgirl who require the attention of her senpai, she is willing to do whatever necessary to eliminate anyone she believes is monopolizing her crush's attention.</reviewPreview>
-          <br>
-          <a href="../reviews/review_yanderesimulator.html">Read more</a></p>
+          <div class="reviewTitle">
+            Yandere Simulator
+          </div>
+          <div class="reviewPreview">
+            As a jealous schoolgirl who require the attention of her senpai, she is willing to do whatever necessary to eliminate anyone she believes is monopolizing her crush's attention.
+          </div>
+          <a href="../reviews/review_yanderesimulator.html">Read more</a>
         </div>
 
+        <div id="arrows">
+          <img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
+          <b class="arrows" id="pageNumber">1</b>
+          <img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
+        </div>
+      </div>
+    </div>
 
+    <footer>
+      Copyright © 2015 GeimMate Inc. All rights reserved. Made by the Internetmakers.
+    </footer>
 
-<!--Denne kan være som-->
-<div id="arrows">
-<img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
-<b class="arrows" id="pageNumber">1</b>
-<img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
-</div>
-</div>
-</div>
+    <script src="../scripts/rootpathparser.js"></script>
+    <script src="../scripts/search.js"></script>
+    <script src="../scripts/konamicode.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/logochange.js"></script>
 
- <footer>
-   Copyright © 2015 GeimMate Inc. All rights reserved. Made by the Internetmakers.
-  </footer>
-
-<script src="../scripts/rootpathparser.js"></script>
-<script src="../scripts/search.js"></script>
-<script src="../scripts/konamicode.js"></script>
-<script src="../scripts/navbar.js"></script>
-<script src="../scripts/logochange.js"></script>
-
-</body>
+  </body>
 </html>

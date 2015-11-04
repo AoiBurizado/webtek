@@ -15,7 +15,7 @@ input.onkeyup = function () {
   // gets all list elements
   var reviews = document.getElementsByClassName("box");
   for (var i = 0; i < reviews.length; i++) {
-    var name = reviews[i].getElementsByTagName("reviewTitle")[0].innerHTML + reviews[i].getElementsByTagName("reviewPreview")[0].innerHTML;
+    var name = reviews[i].getElementsByClassName("reviewTitle")[0].innerHTML + reviews[i].getElementsByClassName("reviewPreview")[0].innerHTML;
     // if the list entry matches the search term
     if (name.toLowerCase().indexOf(input.value.toLowerCase()) > -1) {
       shownListElements.push(reviews[i]); 
