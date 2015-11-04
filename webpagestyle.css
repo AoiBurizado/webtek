@@ -57,6 +57,15 @@ body {
 	padding-left: 9%
 }
 
+#reviewTitle {
+	font-size: 4;
+	font-style: bold;
+}
+
+#reviewPreview {
+	
+}
+
 #multimedia {
 	padding-top: 25px;
 	padding-left: 15%;
