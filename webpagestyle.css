@@ -40,6 +40,11 @@ body {
 	padding-left: 10%;
 }
 
+#thumbNailPicture {
+	height: 100px;
+	width: 28%;
+}
+
 #pictureText {
 	color: #888;
 	text-align: center;
