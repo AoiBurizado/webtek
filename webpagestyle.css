@@ -1,114 +1,11 @@
+
+/*------------------------TAGS--------------------------------------------*/
 body {
 	background-color: #444;
 	margin: 0 auto; 
 	text-decoration: #333;
 	width: 750px;
 	font-family: 'Calibri', sans-serif;
-}
-
-#contentBackground {
-	top: 0;
-	background-color: #FFF8FA;
-	box-shadow: 15px 15px 15px #333;
-}
-.box {
-	width: 650px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	height: 160px;
-  	text-align: justify;
-}
-.info {
-	width: 650px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	font-size: 25px;
-  	font-weight: bold;
-  	margin-top: 30px;
-  	margin-bottom: 30px;
-  	
-}
-.textWrap {
-	float: left;
-	clear: left;
-	margin-right: 10px;
-	
-}
-
-#reviewBox {
-	width: 600px;
-	padding-left: 10%;
-}
-
-#thumbnailPicture {
-	height: 100px;
-	width: 28%;
-}
-
-#pictureText {
-	color: #888;
-	text-align: center;
-	font-size: 12px;
-}
-
-#reviewPicture {
-	width: 500px;
-	height: 300px;
-	padding-left: 9%
-}
-
-reviewTitle {
-	font-size: 4;
-	font-style: bold;
-}
-
-reviewPreview {
-
-}
-
-#multimedia {
-	padding-top: 25px;
-	padding-left: 15%;
-}
-
-#content {
-	padding-bottom: 20px;
-	margin-bottom: 30px;
-}
-
-#nav {
-	width: 700px;
-	height: 50px;
-	border-radius: 5px;
-	margin: 0 auto;
-	background: linear-gradient(#FF85AD, #FF6699);
-	z-index: 1;
-	top: 250px;
-}
-
-#nav ul {
-	padding-left: 10%;
-}
-
-#nav ul ul {
-	padding: 0;
-}
-
-#search {
-	padding-top: 2%;
-	padding-left: 8%;
-}
-
-#header {
-
-}
-
-#headerImage {
-	width: 500px;
-	height: 220px;
-	padding-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 15px;
 }
 
 input {
@@ -133,13 +30,157 @@ a {
 	text-decoration:none;
 }
 
+reviewTitle {
+	font-size: 4;
+	font-style: bold;
+}
 
-#nav ul li {display: block; float: left;}
-#nav li ul {display: none;}
-#nav ul li a {display: block; padding: 13px 25px 13px 25px; font-size: 20px;text-decoration: none;
-           white-space: nowrap;color: #fff;}
-#nav ul li a:hover {background:  #FF85AD;}
-#nav li:hover ul {display: block; position: absolute;}
-#nav li:hover li {float: none;}
-#nav li:hover a {background:  #FF85AD;}
-#nav li:hover li a:hover {background:  #FF9FC5;}
+reviewPreview {
+
+}
+
+/*----------------------CLASSES----------------------------------------------*/
+
+.box {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	height: 160px;
+  	text-align: justify;
+}
+
+.info {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	font-size: 25px;
+  	font-weight: bold;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	
+}
+
+.textWrap {
+	float: left;
+	clear: left;
+	margin-right: 10px;
+	
+}
+
+
+/*------------------------IDs---------------------------------------------*/
+
+#contentBackground {
+	top: 0;
+	background-color: #FFF8FA;
+	box-shadow: 15px 15px 15px #333;
+}
+
+#header {
+
+}
+
+#content {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+#reviewBox {
+	width: 600px;
+	padding-left: 10%;
+}
+
+/*### NAVIGATION BAR ###*/
+#nav {
+	width: 700px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background: linear-gradient(#FF85AD, #FF6699);
+	z-index: 1;
+	top: 250px;
+}
+
+#nav ul {
+	padding-left: 10%;
+}
+
+#nav ul ul {
+	padding: 0;
+}
+
+#nav ul li {
+	display: block; 
+	float: left;
+}
+
+#nav li ul {
+	display: none;
+}
+
+#nav ul li a {
+	display: block; 
+	padding: 13px 25px 13px 25px; 
+	font-size: 20px;
+	text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+#nav ul li a:hover {
+	background:  #FF85AD;
+}
+
+#nav li:hover ul {
+	display: block; 
+	position: absolute;
+}
+
+#nav li:hover li {
+	float: none;
+}
+
+#nav li:hover a {
+	background:  #FF85AD;
+}
+
+#nav li:hover li a:hover {
+	background:  #FF9FC5;
+}
+
+#search {
+	padding-top: 2%;
+	padding-left: 8%;
+}
+
+/*### VIDEO/MULTIMEDIA ###*/
+#multimedia {
+	padding-top: 25px;
+	padding-left: 15%;
+}
+
+/*### IMAGES ###*/
+#headerImage {
+	width: 500px;
+	height: 220px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+#reviewPicture {
+	width: 500px;
+	height: 300px;
+	padding-left: 9%
+}
+
+#pictureText {
+	color: #888;
+	text-align: center;
+	font-size: 12px;
+}
+
+#thumbnailPicture {
+	height: 100px;
+	width: 28%;
+}
