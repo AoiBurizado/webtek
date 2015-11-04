@@ -8,4 +8,3 @@ for (var i = 0; i < len; i++) {
 		root = root.substring(0, i);
 	}
 }
-console.log(root);
