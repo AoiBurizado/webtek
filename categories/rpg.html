@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>RPG</title>
-  <link rel="icon" type="image/png" href="../images/geimateicon.png">
-  <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
-</head>
-<body>
-<div id="contentBackground">
-<div id="header">
-<img id="headerImage" src="../images/logo.png">
-<div id="nav">
-  <ul>
- <li><a href="../index.html">Home</a></li>
-    <li><a href="#">Categories</a><ul>
-      <li><a href="dating_sim.html">Dating Simulator</a></li>
-      <li><a href="rpg.html">RPG</a></li>
-      <li><a href="visual_novel.html">Visual Novel</a></li>
-    </ul></li>
-    <li><a href="#">About us</a><ul>
-      <li><a href="../aboutus/about.html">About us</a></li>
-      <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
-    </ul></li>
-    <li id="search"><input id="input" placeholder="Search..."></li>
-  </ul>
-</div>
-</div>
-
-<div id="content">
-
-        <div class="info">
-          RPG Reviews
+  <head>
+    <meta charset="UTF-8">
+    <title>RPG</title>
+    <link rel="icon" type="image/png" href="../images/geimateicon.png">
+    <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
+  </head>
+  <body>
+    <div id="contentBackground">
+      <div id="header">
+      <img id="headerImage" src="../images/logo.png">
+        <div id="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Categories</a>
+            <ul>
+              <li><a href="dating_sim.html">Dating Simulator</a></li>
+              <li><a href="rpg.html">RPG</a></li>
+              <li><a href="visual_novel.html">Visual Novel</a></li>
+            </ul></li>
+            <li><a href="#">About us</a>
+            <ul>
+              <li><a href="../aboutus/about.html">About us</a></li>
+              <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
+            </ul></li>
+            <li id="search"><input id="input" placeholder="Search..."></li>
+          </ul>
         </div>
+      </div>
 
-        <!-- MUJAFFA-->
-        <div class="box">
-          <img class="textWrap" id="thumbnailPicture" src="../images/img_mujaffa.png" alt="Mujaffa's BMW">
-          <p><reviewTitle>Mujaffa's BMW</reviewTitle>
-
+    <div id="content">
+      <div class="info">
+        RPG Reviews
+      </div>
+      
+      <!-- MUJAFFA-->
+      <div class="box">
+        <img class="textWrap" id="thumbnailPicture" src="../images/img_mujaffa.png" alt="Mujaffa's BMW">
+        <p>
+          <reviewTitle>
+            Mujaffa's BMW
+          </reviewTitle>
           <br>
-          <reviewPreview>Mujaffa’s world revolves around cruising the streets of Oslo in your self-styled BMW, in a pursuit to collect gold chains, greet your comrades and score blondes. Pimp up your BMW and cruise the streets of the city!</reviewPreview>
+          <reviewPreview>
+            Mujaffa’s world revolves around cruising the streets of Oslo in your self-styled BMW, in a pursuit to collect gold chains, greet your comrades and score blondes. Pimp up your BMW and cruise the streets of the city!
+          </reviewPreview>
           <br>
           <a href="../reviews/review_mujaffa.html">Read more</a></p>
         </div>
@@ -47,31 +52,34 @@
         <!-- THE SIMS 4 -->
         <div class="box">
           <img class="textWrap" id="thumbnailPicture" src="../images/img_thesims4.png" alt="The Sims 4">
-          <p><reviewTitle>The Sims 4</reviewTitle>
-          <br>
-          <reviewPreview>The sims 4  txt</reviewPreview>
-          <br>
-          <a href="../reviews/review_thesims4.html">Read more</a></p>
+          <p>
+            <reviewTitle>
+              The Sims 4
+            </reviewTitle>
+            <br>
+            <reviewPreview>
+              The Sims 4 is the revolutionary sibling to The Sims 3. 
+              Like building houses? Build houses better and easier like never before! 
+              Do you love spending hours designing your sim? Make it easier with less time! 
+              How  about creating a love drama? Start Woohoo'ing right away!
+            </reviewPreview>
+            <br>
+            <a href="../reviews/review_thesims4.html">Read more</a>
+          </p>
         </div>
+        <div id="arrows">
+          <img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
+          <b class="arrows" id="pageNumber">1</b>
+          <img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
+        </div>
+      </div>
+    </div>
 
+    <script src="../scripts/rootpathparser.js"></script>
+    <script src="../scripts/search.js"></script>
+    <script src="../scripts/konamicode.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/logochange.js"></script>
 
-
-
-
-
-<div id="arrows">
-<img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
-<b class="arrows" id="pageNumber">1</b>
-<img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
-</div>
-</div>
-</div>
-
-<script src="../scripts/rootpathparser.js"></script>
-<script src="../scripts/search.js"></script>
-<script src="../scripts/konamicode.js"></script>
-<script src="../scripts/navbar.js"></script>
-<script src="../scripts/logochange.js"></script>
-
-</body>
+  </body>
 </html>
