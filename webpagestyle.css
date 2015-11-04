@@ -40,7 +40,7 @@ body {
 	padding-left: 10%;
 }
 
-#thumbNailPicture {
+#thumbnailPicture {
 	height: 100px;
 	width: 28%;
 }
@@ -57,13 +57,13 @@ body {
 	padding-left: 9%
 }
 
-#reviewTitle {
+reviewTitle {
 	font-size: 4;
 	font-style: bold;
 }
 
-#reviewPreview {
-	
+reviewPreview {
+
 }
 
 #multimedia {
