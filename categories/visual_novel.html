@@ -2,69 +2,75 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Visual novel</title>
+    <title>
+      Visual Novel Reviews
+    </title>
     <link rel="icon" type="image/png" href="../images/geimateicon.png">
     <link rel="stylesheet" type="text/css" href="../webpagestyle.css">
   </head>
   <body>
     <div id="contentBackground">
-    <div id="header">
-    <img id="headerImage" src="../images/logo.png">
-    <div id="nav">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-          <li><a href="#">Categories</a><ul>
-            <li><a href="dating_sim.html">Dating Simulator</a></li>
-            <li><a href="rpg.html">RPG</a></li>
-            <li><a href="visual_novel.html">Visual Novel</a></li>
-          </ul></li>
-          <li><a href="#">About us</a><ul>
-            <li><a href="../aboutus/about.html">About us</a></li>
-            <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
-          </ul></li>
-          <li id="search"><input id="input" placeholder="Search..."></li>
-        </ul>
-    </div>
-    </div>
-    <div id="content">
-      <div class="info">
-        Visual Novel Reviews
+      <div id="header">
+        <img id="headerImage" src="../images/logo.png">
+        <div id="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Categories</a>
+            <ul>
+              <li><a href="dating_sim.html">Dating Simulator</a></li>
+              <li><a href="rpg.html">RPG</a></li>
+              <li><a href="visual_novel.html">Visual Novel</a></li>
+            </ul></li>
+            <li><a href="#">About us</a>
+            <ul>
+              <li><a href="../aboutus/about.html">About us</a></li>
+              <li><a href="../aboutus/sitemap.html">Sitemap</a></li>
+            </ul></li>
+            <li id="search"><input id="input" placeholder="Search..."></li>
+          </ul>
+        </div>
       </div>
+    
+      <div id="content">
+        <div class="info">
+          Visual Novel Reviews
+        </div>
       
-      <!-- AMNESIA -->
-      <div class="box">
-        <img class="textWrap" id="thumbnailPicture" src="../images/img_amnesia.png" alt="Amnesia: Memories">
-        <p><reviewTitle>Amnesia: Memories</reviewTitle>
+        <!-- AMNESIA -->
+        <div class="box">
+          <img class="textWrap" id="thumbnailPicture" src="../images/img_amnesia.png" alt="Amnesia: Memories">
+          <div class="reviewTitle">
+            Amnesia: Memories
+          </div>
+          <div class="reviewPreview">
+            You awaken to find your memories gone. To learn the truth behind your amnesia, you’ll choose from five romantic paths, each its own world. With 20+ endings, can you write the lasting love story you deserve, or will your love and life come to an end?
+          </div> 
+          <a href="../reviews/review_amnesia.html">Read more</a>
+        </div>
 
-        <br>
-        <reviewPreview>You awaken to find your memories gone. To learn the truth behind your amnesia, you’ll choose from five romantic paths, each its own world. With 20+ endings, can you write the lasting love story you deserve, or will your love and life come to an end?</reviewPreview>
-        <br>
-        <a href="../reviews/review_amnesia.html">Read more</a></p>
+        <!-- HATOFUL BOYFRIEND -->
+        <div class="box">
+          <img class="textWrap" id="thumbnailPicture" src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend">
+          <div class="reviewTitle">
+            Hatoful Boyfriend
+          </div>
+          <div class="reviewPreview">
+            Hiyoko Tosaka is a hunter-gatherer living in the dystopian future where birds now rival mankind in intelligence. She has been invited as the human liason to the prestigious...
+          </div>
+          <a href="../reviews/review_hatofulboyfriend.html">Read more</a></p>
+        </div>
+
+        <div id="arrows">
+          <img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
+          <b class="arrows" id="pageNumber">1</b>
+          <img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
+        </div>
       </div>
+    </div>
 
-      <!-- HATOFUL BOYFRIEND -->
-      <div class="box">
-        <img class="textWrap" id="thumbnailPicture" src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend">
-        <p><reviewTitle>Hatoful Boyfriend</reviewTitle>
-
-        <br>
-        <reviewPreview>When you hold me In your arms so tight You let me know Everything's all right." <br> Hiyoko Tosaka is a hunter-gatherer living in the dystopian future where birds now rival mankind in intelligence. She has been invited as the human liason to the prestigious...</reviewPreview>
-        <br>
-        <a href="../reviews/review_hatofulboyfriend.html">Read more</a></p>
-      </div>
-
-
-<div id="arrows">
-<img class="arrows" src="../images/arrowleft.png" onclick="changePage(currentPage - 1)">
-<b class="arrows" id="pageNumber">1</b>
-<img class="arrows" src="../images/arrowright.png" onclick="changePage(currentPage + 1)">
-</div>
-</div>
-</div>
-
-   <footer>
-   Copyright © 2015 GeimMate Inc. All rights reserved. Made by the Internetmakers.
-  </footer>
+    <footer>
+      Copyright © 2015 GeiMate Inc. All rights reserved. Made by the Internetmakers.
+    </footer>
 
     <script src="../scripts/rootpathparser.js"></script>
     <script src="../scripts/search.js"></script>
