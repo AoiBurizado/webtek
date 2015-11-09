@@ -87,6 +87,21 @@ p {
 	margin-right: 10px;
 }
 
+.sitemapBox {
+	padding-top: 20px;
+	height: 100%;
+	padding-left: 10%;
+	width: 100%;
+	font-size: 23px;
+}
+
+.sitemapColumn {
+	display: inline-block;
+	vertical-align: top;
+	padding-left:5%;
+	padding-right:5%;
+}
+
 /*.textWrap {
 	float: left;
 	clear: left;
