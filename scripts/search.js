@@ -4,6 +4,7 @@ var input = document.getElementById("input");
 // list of all entries that match the search term
 var shownListElements = Array.prototype.slice.call(document.getElementsByClassName("box"));
 updateShownElements();
+changePage(1);
 
 /*
   Whenever the search term changes, this function is called
@@ -72,6 +73,7 @@ function updateShownElements() {
 */
 function changePage(page) {
   currentPage = page;
+  totalPages = Math.ceil(shownListElements.length / entriesPerPage);
   updateShownElements();
-  document.getElementById("pageNumber").innerHTML = currentPage;
+  document.getElementById("pageNumber").innerHTML = currentPage + " / " + totalPages;
 }
