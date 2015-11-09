@@ -202,6 +202,9 @@ p {
 	height: 100px;
 	width: 28%;
 	margin-bottom: 30px;
+	float: left;
+	clear: left;
+	margin-right: 10px;
 }
 
 #arrows {
