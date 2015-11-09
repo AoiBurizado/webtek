@@ -31,6 +31,28 @@ a {
 	text-decoration:none;
 }
 
+h1 {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	font-size: 25px;
+  	font-weight: bold;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 /*----------------------CLASSES----------------------------------------------*/
 
 .box {
@@ -39,16 +61,6 @@ a {
   	padding-right: 50px;
   	height: 150px;
   	text-align: justify;
-}
-
-.info {
-	width: 650px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	font-size: 25px;
-  	font-weight: bold;
-  	margin-top: 30px;
-  	margin-bottom: 30px;
 }
 
 .sitemap {
@@ -71,16 +83,6 @@ a {
 	clear: left;
 	margin-right: 10px;
 }
-
-.reviewTitle {
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.reviewPreview {
-	font-size: 16px;
-}
-
 
 /*------------------------IDs---------------------------------------------*/
 
