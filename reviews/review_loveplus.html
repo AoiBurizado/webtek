@@ -31,7 +31,11 @@
 <!-- Bytt ut denne etter hvilken side man er på. F. eks. RPG burde ha <h2>RPG reviews</h2>-->
 <div id="reviewBox">
 
-<img src="../images/img_loveplus.jpg" alt="Love Plus Cast" id="reviewPicture">
+<div class="pop" id="popUp1" style="display:none;">    
+<img src="../images/img_loveplus.jpg" alt="Love Plus Cast" onclick="popup('popUp1')" height="400" width="800"></img>
+</div>      
+<img id="reviewPicture" src="../images/img_loveplus.jpg" alt="Love Plus Cast" onclick="popup('popUp1')"></img>
+
 
 <h1>Love Plus</h1>
 
@@ -52,19 +56,28 @@
 
 <h2>Review</h2>
 
-<img src="../images/img_loveplus_story.jpg" alt="Storylines in Love Plus" height="100%" width="100%">
+<div class="pop" id="popUp2" style="display:none;">    
+<img src="../images/img_loveplus_story.jpg" alt="Storylines in Love Plus" onclick="popup('popUp2')" height="400" width="800"></img>
+</div>      
+<img height="100%" width="100%" src="../images/img_loveplus_story.jpg" alt="Storylines in Love Plus" onclick="popup('popUp2')"></img>
 
 <p id="pictureText"> Here are examples from Manaka and Rinko's storylines.</p>
 
 <p>The gameplay in the first part of the game is choosing activities during the day, where the different girls will be part of different actions. For example doing lots of part-time will get you closer to the girl working part time. This part of the game can be pretty quick, since you do your activities, sleep and repeat. But after this phase and you, hopefully, have confessed to a girl it will switch to real time mode.</p>
 
-<img src="../images/img_loveplus_nene.jpg" alt="Nene in Love Plus" height="100%" width="100%">
+<div class="pop" id="popUp3" style="display:none;">    
+<img src="../images/img_loveplus_nene.jpg" alt="Nene in Love Plus" onclick="popup('popUp3')" height="400" width="800"></img>
+</div>      
+<img height="100%" width="100%" src="../images/img_loveplus_nene.jpg" alt="Nene in Love Plus" onclick="popup('popUp3')"></img>
 
 <p id="pictureText"> Love Plus Mode with Nene Anegasaki. Speak to her and she will reply!</p>
 
 <p>In real time mode your life dating a japanese highschool girl truly starts. Now the time in the game matches the time of your NDS, and this will play an important role in the game. The girl will want to go on dates, and these dates are decided between the two of you, and will be based on real time. This means that the game might become quite time consuming, especially since you will have to communicate with her at least every other game in order to keep a good relationship with her. You can also speak to her through a "chatting" function, where she will speak to you through primitive commands. By primitive I mean the fact that she cannot form too complex sentences, but the function is very cute and enjoyable. The game operating in real time also means that it follows the same day as you, and events like christmas and Valentines dates are possible. </p>
 
-<img src="../images/img_loveplus_christmas.jpg" alt="Christmas in Love Plus" height="100%" width="100%">
+<div class="pop" id="popUp4" style="display:none;">    
+<img src="../images/img_loveplus_christmas.jpg" alt="Christmas in Love Plus" onclick="popup('popUp4')" height="400" width="800"></img>
+</div>      
+<img height="100%" width="100%" src="../images/img_loveplus_christmas.jpg" alt="Christmas in Love Plus" onclick="popup('popUp4')"></img>
 
 <p id="pictureText"> The girls dressed up for christmas. They wear something similar in-game.</p>
 
@@ -89,6 +102,6 @@
 <script src="../scripts/navbar.js"></script>
 <script src="../scripts/logochange.js"></script>
 <script src="../scripts/disablesearch.js"></script>
-
+<script src="../scripts/pop-up.js"></script>
 </body>
 </html>

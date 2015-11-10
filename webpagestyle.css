@@ -226,3 +226,13 @@ p {
 #arrows {
 	margin-left: 45%;
 }
+
+/* this makes the popup cool. like totally radikal. */
+.pop {
+	position:absolute;
+	width:800px;
+	height:600px;
+	z-index: 9002;
+}
+
+.pop a {font-styleposition:relative; top:20px; left:20px}

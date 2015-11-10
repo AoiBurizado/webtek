@@ -31,7 +31,12 @@
 <!-- Bytt ut denne etter hvilken side man er på. F. eks. RPG burde ha <h2>RPG reviews</h2>-->
 <div id="reviewBox">
 
-<img src="../images/img_yanderesimulator.png" alt="Yandere Simulator" id="reviewPicture">
+<div class="pop" id="popUp1" style="display:none;">    
+<img src="../images/img_yanderesimulator.png" alt="Yandere Simulator" onclick="popup('popUp1')" height="400" width="800"></img>
+</div>      
+<img id="reviewPicture" src="../images/img_yanderesimulator.png" alt="Yandere Simulator" onclick="popup('popUp1')"></img>
+
+
 
 <h1>Yandere Simulator</h1>
 
@@ -85,6 +90,7 @@
 <script src="../scripts/navbar.js"></script>
 <script src="../scripts/logochange.js"></script>
 <script src="../scripts/disablesearch.js"></script>
+<script src="../scripts/pop-up.js"></script>
 
 </body>
 </html>

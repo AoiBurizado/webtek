@@ -31,7 +31,12 @@
 <!-- Bytt ut denne etter hvilken side man er på. F. eks. RPG burde ha <h2>RPG reviews</h2>-->
 <div id="reviewBox">
 
-<img src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend" id="reviewPicture">
+<div class="pop" id="popUp1" style="display:none;">    
+<img src="../images/img_hatofulboyfriend.png" alt="Amnesia: Memories" onclick="popup('popUp1')" height="400" width="800"></img>
+</div>      
+<img id="reviewPicture" src="../images/img_hatofulboyfriend.png" alt="Amnesia: Memories" onclick="popup('popUp1')"></img>
+
+
 
 <h1>Hatoful Boyfriend</h1>
 
@@ -76,6 +81,7 @@ Hatoful Boyfriend is a weird game, there is no doubt about that. But yet it mana
 <script src="../scripts/navbar.js"></script>
 <script src="../scripts/logochange.js"></script>
 <script src="../scripts/disablesearch.js"></script>
+<script src="../scripts/pop-up.js"></script>
 
 </body>
 </html>

@@ -38,26 +38,36 @@
       
         <!-- AMNESIA -->
         <div class="box">
-          <img class="thumbnailPicture" src="../images/img_amnesia.png" alt="Amnesia: Memories">
+
+            <div class="pop" id="popUp1" style="display:none;">    
+            <img src="../images/img_amnesia.png" alt="Amnesia: Memories" onclick="popup('popUp1')" height="400" width="800"></img>
+            </div>      
+            <img class="thumbnailPicture" src="../images/img_amnesia.png" alt="Amnesia: Memories" onclick="popup('popUp1')"></img>
+          
           <h2 class="reviewTitle">
             Amnesia: Memories
           </h2>
           <p class="reviewPreview">
             You awaken to find your memories gone. To learn the truth behind your amnesia, you’ll choose from five romantic paths, each its own world. With 20+ endings, can you write the lasting love story you deserve, or will your love and life come to an end?
           </p> 
-          <a href="reviews/review_amnesia.html">Read more</a>
+          <a href="../reviews/review_amnesia.html">Read more</a>
         </div>
 
         <!-- HATOFUL BOYFRIEND -->
         <div class="box">
-          <img class="thumbnailPicture" src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend">
+
+            <div class="pop" id="popUp2" style="display:none;">    
+            <img src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend" onclick="popup('popUp2')" height="400" width="800"></img>
+            </div>      
+            <img class="thumbnailPicture" src="../images/img_hatofulboyfriend.png" alt="Hatoful Boyfriend" onclick="popup('popUp2')"></img>
+          
           <h2 class="reviewTitle">
             Hatoful Boyfriend
           </h2>
           <p class="reviewPreview">
             Hiyoko Tosaka is a hunter-gatherer living in the dystopian future where birds now rival mankind in intelligence. She has been invited as the human liason to the prestigious...
           </p>
-          <a href="reviews/review_hatofulboyfriend.html">Read more</a>
+          <a href="../reviews/review_hatofulboyfriend.html">Read more</a>
         </div>
 
         <div id="arrows">
@@ -77,6 +87,8 @@
     <script src="../scripts/konamicode.js"></script>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/logochange.js"></script>
+    <script src="../scripts/pop-up.js"></script>
+
 
   </body>
 </html>
