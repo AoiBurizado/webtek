@@ -33,7 +33,6 @@ a {
 
 h1 {
 	width: 650px;
-  	padding-left: 50px;
   	padding-right: 50px;
   	font-size: 25px;
   	font-weight: bold;
@@ -105,6 +104,18 @@ h1 {
 .reviewPreview {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.multimediaObject {
+	width: 400;
+	height: 200;
+}
+
+.pictureText {
+	color: #888;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 20px;
 }
 
 /* this makes the popup cool. like totally radikal. */
@@ -218,14 +229,6 @@ h1 {
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
-
-#pictureText {
-	color: #888;
-	text-align: center;
-	font-size: 12px;
-	margin-bottom: 20px;
-}
-
 
 #arrows {
 	margin-left: 45%;
