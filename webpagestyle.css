@@ -105,8 +105,8 @@ h1 {
 }
 
 .multimediaObject {
-	width: 400;
-	height: 200;
+	width: 400px;
+	height: 200px;
 }
 
 .pictureText {
@@ -124,7 +124,11 @@ h1 {
 	z-index: 9002;
 }
 
-.pop a {font-styleposition:relative; top:20px; left:20px}
+.pop a {
+	position: relative; 
+	top: 20px; 
+	left: 20px
+}
 
 /*------------------------IDs---------------------------------------------*/
 
