@@ -26,9 +26,14 @@ footer {
  	text-align: center;
  	margin-bottom: 25px;
  }
+
 a {
 	color: #FF85AD;;
 	text-decoration:none;
+}
+
+a:hover {
+	color: #FF9FC5;
 }
 
 h1 {
