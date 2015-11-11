@@ -41,18 +41,6 @@ h1 {
   	margin-bottom: 30px;
 }
 
-h2 {
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 0px;
-}
-
-p {
-	font-size: 16px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
 /*----------------------CLASSES----------------------------------------------*/
 
 .box {
@@ -87,6 +75,12 @@ p {
 	margin-right: 10px;
 }
 
+.reviewPicture {
+	height: 100%; 
+	width: 100%;
+	margin-top: 5px;
+}
+
 .sitemapBox {
 	padding-top: 20px;
 	height: 100%;
@@ -102,11 +96,26 @@ p {
 	padding-right:5%;
 }
 
-/*.textWrap {
-	float: left;
-	clear: left;
-	margin-right: 10px;
-}*/
+.reviewTitle {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.reviewPreview {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* this makes the popup cool. like totally radikal. */
+.pop {
+	position:absolute;
+	width:800px;
+	height:600px;
+	z-index: 9002;
+}
+
+.pop a {font-styleposition:relative; top:20px; left:20px}
 
 /*------------------------IDs---------------------------------------------*/
 
@@ -210,12 +219,6 @@ p {
 	padding-bottom: 15px;
 }
 
-#reviewPicture {
-	width: 500px;
-	height: 300px;
-	padding-left: 9%
-}
-
 #pictureText {
 	color: #888;
 	text-align: center;
@@ -227,13 +230,3 @@ p {
 #arrows {
 	margin-left: 45%;
 }
-
-/* this makes the popup cool. like totally radikal. */
-.pop {
-	position:absolute;
-	width:800px;
-	height:600px;
-	z-index: 9002;
-}
-
-.pop a {font-styleposition:relative; top:20px; left:20px}
