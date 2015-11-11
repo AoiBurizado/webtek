@@ -1,4 +1,4 @@
-
+//burde ha funnet bilder av klassen "thumbnailPicture" i stedet for alle bilder. 
 var images = document.getElementsByTagName("img");
 
 for(var i = 0; i < images.length; i++) {
