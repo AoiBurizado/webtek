@@ -50,13 +50,6 @@ h1 {
   	text-align: justify;
 }
 
-.sitemap {
-	width: 650px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	margin-bottom: 30px;
-}
-
 .about {
 	width: 650px;
   	padding-left: 50px;
@@ -136,13 +129,20 @@ h1 {
 	box-shadow: 15px 15px 15px #333;
 }
 
-#header {
-
+#contentHeader {
+	padding-left: 50px;
 }
 
 #content {
 	padding-bottom: 20px;
 	margin-bottom: 30px;
+}
+
+#sitemap {
+	width: 650px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	margin-bottom: 30px;
 }
 
 #reviewBox {
