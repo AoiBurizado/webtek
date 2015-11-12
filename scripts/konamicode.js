@@ -9,9 +9,10 @@ var createPersonInterval;
 window.onkeydown = function(event) {
 	if (event.keyCode == code[konamiCounter]) {
 		konamiCounter++;
-	// in the specific event that your last 2 inputs were UP, and you press UP again
-	// your last 2 inputs are still UP
-	} else if (konamiCounter == 2 && event.keyCode == 38) {
+	}
+	// in the event that your last 2 inputs were UP, and you press UP again
+	// your last 2 inputs are still UP and the counter shouldn't reset
+	else if (konamiCounter == 2 && event.keyCode == 38) {
 		return;
 	} else {
 		konamiCounter = 0;
@@ -21,11 +22,17 @@ window.onkeydown = function(event) {
 	}
 }
 
+/*
+  The function called when the konami code has been entered correctly
+*/
 function fun() {
 	createPersonInterval = window.setInterval(function() {createPerson(people[currentPerson]);}, 750);
 	moveInterval = window.setInterval(move, 30);
 }
 
+/*
+  Instantiates a new image for the person with the given name
+*/
 function createPerson(name) {
 	var img = document.createElement("img");
 	// root is the absolute path to the root folder, needed because this script is linked to
@@ -41,6 +48,9 @@ function createPerson(name) {
 	}
 }
 
+/*
+  Moves all currently active images and handles deletion of images
+*/
 function move() {
 	var groupmembers = document.getElementsByClassName("groupmembers");
 	for (var i = 0; i < groupmembers.length; i++) {
