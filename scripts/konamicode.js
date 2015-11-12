@@ -71,7 +71,7 @@ function move() {
 		}
 		groupmembers[i].style.left = (Number(left) + 5) + "px";
 		// document.documentElement.scrollTop will return scrollHeight in Firefox and IE
-		// document.body.scrollTop does the same for Chrome
+		// document.body.scrollTop does the same for Chrome and Opera
 		// in any case, one of them will return 0 and the other will return a positive value
 		// because of the boolean OR expression, the non-zero value will be chosen
 		groupmembers[i].style.top = (document.documentElement.scrollTop || 
