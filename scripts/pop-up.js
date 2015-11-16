@@ -1,9 +1,15 @@
+/*
+	Toggles between the normal and the popped out image
+*/
 function toggle(div_id) {
 	var el = document.getElementById(div_id);
 	if ( el.style.display == 'none' ) {	el.style.display = 'block';}
 	else {el.style.display = 'none';}
 }
 
+/*
+	Positions the popped out image
+*/
 function window_pos(popUpDivVar) {
 	if (typeof window.innerWidth != 'undefined') {
 		viewportwidth = window.innerHeight;
@@ -23,6 +29,10 @@ function window_pos(popUpDivVar) {
 	window_width=window_width/2-400;
 	popUpDiv.style.left = window_width + 'px';
 }
+
+/*
+	Called whenever the user clicks on a popup-able image
+*/
 function popup(windowname) {
 	window_pos(windowname);
 	toggle(windowname);		
