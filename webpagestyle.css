@@ -3,7 +3,7 @@
 body {
 	background-color: #444;
 	margin: 0 auto; 
-	text-decoration: #888;
+	color: #333;
 	width: 750px;
 	font-family: 'Calibri', sans-serif;
 }
@@ -33,6 +33,10 @@ a {
 
 a:hover {
 	color: #FF9FC5;
+}
+
+p {
+	color: #444;
 }
 
 h1 {
@@ -76,16 +80,6 @@ h1 {
 	width: 100%;
 	margin-top: 5px;
 }
-
-/*
-.sitemapBox {
-	padding-top: 20px;
-	height: 100%;
-	padding-left: 10%;
-	width: 100%;
-	font-size: 23px;
-}
-*/
 
 .columnHeader {
 	font-size: 22px;
@@ -186,6 +180,10 @@ h1 {
 	padding-left: 10%;
 }
 
+#arrows {
+	margin-left: 45%;
+}
+
 /*### NAVIGATION BAR ###*/
 #nav {
 	width: 700px;
@@ -255,6 +253,8 @@ h1 {
 }
 
 /*### IMAGES ###*/
+
+/*This*/
 #headerImage {
 	width: 500px;
 	height: 220px;
@@ -267,8 +267,4 @@ h1 {
 	height: 100%;
 	width: 100%;
 	margin-top: 30px;
-}
-
-#arrows {
-	margin-left: 45%;
 }
