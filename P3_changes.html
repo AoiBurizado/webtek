@@ -40,7 +40,38 @@
 		Changes that we have made
 	</h4>
 	<p>
-	
+	We had initially planned to have 11 pages, but because we wanted to have two reviews for each category (dating sim, rpg and visual novel) we ended up with 12. There are a few stylistic and structural changes, and these changes are summarized below. Not all files were changed from the original design. 
+	<br>
+	<br>
+	<b>Changes to index.html:</b> we changed the location of the search/filterbar. We added arrows and letters to be able to change pages if there are too many on the first one. All reviews are shown on the index.html. We also made the thumbnails linked to the specific review, instead of having the thumbnail pop up as first intended.
+	<br>
+	<br>
+	<b>Changes to aboutus.html:</b> We added information about how to activate the konamicode. 
+	<br>
+	<br>
+	<b>Changes to dating_sim.html, rpg.html and visual_novel.html:</b> Searchbar style, location and name was changed. Arrows for scalable review category has been added to dating_sim.html through search.js. We made the thumbnails linked to the specific review, instead of having the thumbnail pop up as first intended.
+	<br>
+	<br>
+	<b>Changes to search.js and navbar.js:</b> Among other things we changed the searchbar’s shape and location. Instead of placing it with the navigation bar, we decided to move it on the pages title’s right side. This is because the solution for disabling the searchbar was not as good as we thought it was. We figured most users would expect the searchbar to be able to search the whole website for reviews. In reality, it only filters the reviews on the “newest review”. Therefore we only have the search/filter bar available on the pages with a lot of review to choose from. In addition to the location and design changes, we also switched the name to “filter”. Javascript for the pagenavigationarrows are within the search.js and changes page if the amount of reviews on the page is too high. 
+	<br>
+	<br>
+	Other than these changes, we didn't do much that we had not already planned. Mostly we knew what we wanted to make and design, and just coded it. 
+	<br>
+	<br>	
+	<b>Universal changes to reviews:</b> All of the pictures in each review has now a “pictureText” to go with. Also, we changed the the reviews after making them to have the same universal design. Picture at the top, a small introduction followed by general game information. Some of the reviews has a game trailer.
+	<br>
+	<br>
+	<b>Changes to webstyle.css:</b>
+
+	<br>
+	<br>
+	<b>Deleted:</b>
+	<ul>
+		<li>
+			disablesearch.js
+		</li>
+	</ul>
+
 </p>
 </section>
 
