@@ -43,7 +43,7 @@
 	We had initially planned to have 11 pages, but because we wanted to have two reviews for each category (dating sim, rpg and visual novel) we ended up with 12. There are a few stylistic and structural changes, and these changes are summarized below. Not all files were changed from the original design. 
 	<br>
 	<br>
-	<b>Changes to index.html:</b> we changed the location of the search/filterbar. We added arrows and letters to be able to change pages if there are too many on the first one. All reviews are shown on the index.html. We also made the thumbnails linked to the specific review, instead of having the thumbnail pop up as first intended.
+	<b>Changes to index.html:</b> we changed the location of the search/filterbar. We added arrows and numbers to be able to change pages if there are too many on the first one. All reviews are shown on the index.html. We also made the thumbnails linked to the specific review, instead of having the thumbnail pop up as first intended.
 	<br>
 	<br>
 	<b>Changes to aboutus.html:</b> We added information about how to activate the konamicode. 
@@ -52,7 +52,7 @@
 	<b>Changes to dating_sim.html, rpg.html and visual_novel.html:</b> Searchbar style, location and name was changed. Arrows for scalable review category has been added to dating_sim.html through search.js. We made the thumbnails linked to the specific review, instead of having the thumbnail pop up as first intended.
 	<br>
 	<br>
-	<b>Changes to search.js and navbar.js:</b> Among other things we changed the searchbar’s shape and location. Instead of placing it with the navigation bar, we decided to move it on the pages title’s right side. This is because the solution for disabling the searchbar was not as good as we thought it was. We figured most users would expect the searchbar to be able to search the whole website for reviews. In reality, it only filters the reviews on the “newest review”. Therefore we only have the search/filter bar available on the pages with a lot of review to choose from. In addition to the location and design changes, we also switched the name to “filter”. Javascript for the pagenavigationarrows are within the search.js and changes page if the amount of reviews on the page is too high. 
+	<b>Changes to search.js and navbar.js:</b> Among other things we changed the searchbar’s shape and location. Instead of placing it with the navigation bar, we decided to move it on the pages title’s right side. This is because it was unclear that the search bar could only be used on some pages. Some users expected the searchbar to be able to search the whole website for reviews. In reality, it only filters the reviews on the current page. Therefore we only have the search/filter bar available on the pages with a lot of review to choose from. In addition to the location and design changes, we also switched the name to “filter”. Javascript for the pagenavigationarrows are within the search.js and changes page if the amount of reviews on the page is too high. 
 	<br>
 	<br>
 	Other than these changes, we didn't do much that we had not already planned. Mostly we knew what we wanted to make and design, and just coded it. 
@@ -65,13 +65,6 @@
 
 	<br>
 	<br>
-	<b>Deleted:</b>
-	<ul>
-		<li>
-			disablesearch.js
-		</li>
-	</ul>
-
 </p>
 </section>
 
@@ -89,35 +82,32 @@
 			<ul>
 			<li>aboutus</li>
 				<ul>
-				<li>aboutus.html</li>
-				<li>sitemap.html</li>
+					<li>aboutus.html</li>
+					<li>sitemap.html</li>
 				</ul>
 			<li>categories</li>
 				<ul>
-				<li>dating_sim.html</li>
-				<li>rpg.html</li>
-				<li>visual_novel.html</li>
+					<li>dating_sim.html</li>
+					<li>rpg.html</li>
+					<li>visual_novel.html</li>
 				</ul>
 			<li>reviews</li>
 				<ul>
-				<li>review_amnesia.html</li>
-				<li>review_hatofulboyfriend.html</li>
-				<li>review_loveplus.html</li>
-				<li>review_mujaffa.html</li>
-				<li>reviews_thesims4.html</li>
-				<li>reviews_yanderesimulator.html</li>
+					<li>review_amnesia.html</li>
+					<li>review_hatofulboyfriend.html</li>
+					<li>review_loveplus.html</li>
+					<li>review_mujaffa.html</li>
+					<li>reviews_thesims4.html</li>
+					<li>reviews_yanderesimulator.html</li>
 				</ul>
 			<li>scripts</li>
 				<ul>
-				<li>disablesearch.js</li>
-				<li>imageLink.js</li>
-				<li>konamicode.js</li>
-				<li>logochange.js</li>
-				<li>navbar.js</li>
-				<li>pop-up.js</li>
-				<li>rootpathparser.js</li>
-				<li>search.js</li>
-
+					<li>konamicode.js</li>
+					<li>logochange.js</li>
+					<li>navbar.js</li>
+					<li>pop-up.js</li>
+					<li>rootpathparser.js</li>
+					<li>search.js</li>
 				</ul>
 			</ul>
 		<li>webpagestyle.css</li>
@@ -207,11 +197,6 @@
 		    <td class="tg-yw4l">Marius</td>
 		  </tr>
 		  <tr>
-		    <td class="tg-yw4l">imageLink.js</td>
-		    <td class="tg-yw4l">This script makes it so that when you click on the thumbnailpicture for the reviews on the homepage and the category pages, you will be directed to the review.</td>
-		    <td class="tg-yw4l">Marius</td>
-		  </tr>
-		  <tr>
 		    <td class="tg-yw4l">konamicode.js</td>
 		    <td class="tg-yw4l">Provides a konami code which displays the site's development team.</td>
 		    <td class="tg-yw4l">Kristoffer</td>
@@ -238,7 +223,7 @@
 		  </tr>
 		  <tr>
  			 <td class="tg-yw4l">search.js</td>
-		    <td class="tg-yw4l">This script provides the opertunity to search on spesific game reviews.</td>
+		    <td class="tg-yw4l">This script provides the opportunity to search on specific game reviews. It also handles the arrows for navigation when a page has more than 5 reviews.</td>
 		    <td class="tg-yw4l">Kristoffer</td>
 		  </tr>
 		</table>
