@@ -88,13 +88,21 @@ h1 {
 }
 */
 
-.columnGroup {
+.columnHeader {
 	font-size: 22px;
 	line-height: 33px;
 	width: 300px;
 	display: inline-block;
 	vertical-align: top;
 	padding-right: 25px;
+}
+
+.sitemapColumn {
+	font-size: 22px;
+	line-height: 33px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right:15%;
 }
 
 .reviewTitle {
