@@ -80,14 +80,17 @@ h1 {
 
 /*
 .sitemapBox {
+	padding-top: 20px;
 	height: 100%;
+	padding-left: 10%;
 	width: 100%;
 	font-size: 23px;
 }
 */
 
 .sitemapColumn {
-	font-size: 23px;
+	font-size: 22px;
+	line-height: 33px;
 	display: inline-block;
 	vertical-align: top;
 	padding-right: 15%;
