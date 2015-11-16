@@ -8,6 +8,15 @@ body {
 	font-family: 'Calibri', 'Arial', sans-serif;
 }
 
+footer {
+ 	color: #999;
+ 	text-align: center;
+ 	margin-bottom: 25px;
+ }
+
+/*### INPUT ###*/
+
+/*These two style the input fields which are used in the search/filter field*/
 input {
 	height: 25px;
 	border-radius: 15px;
@@ -15,17 +24,15 @@ input {
 	border: solid 2px #FFA2AD;
 }
 
+/*When the search/filter field is targeted by user...*/
 input:focus {
 	border: solid 2px #FF6699;
 	outline: none;
 }
 
-footer {
- 	color: #999;
- 	text-align: center;
- 	margin-bottom: 25px;
- }
+/*### LINKS ###*/
 
+/*These are for general links on the page*/
 a {
 	color: #FF85AD;
 	text-decoration:none;
@@ -34,6 +41,8 @@ a {
 a:hover {
 	color: #FF9FC5;
 }
+
+/*### TEXT ###*/
 
 p {
 	color: #444;
@@ -81,23 +90,6 @@ h1 {
 	margin-top: 5px;
 }
 
-.columnHeader {
-	font-size: 22px;
-	line-height: 33px;
-	width: 300px;
-	display: inline-block;
-	vertical-align: top;
-	padding-right: 25px;
-}
-
-.sitemapColumn {
-	font-size: 22px;
-	line-height: 33px;
-	display: inline-block;
-	vertical-align: top;
-	padding-right:15%;
-}
-
 .reviewTitle {
 	font-size: 18px;
 	font-weight: bold;
@@ -122,8 +114,27 @@ h1 {
 	margin-bottom: 20px;
 }
 
-/* this makes the popup cool. like totally radikal. */
+/*### COLUMN POSITIONING ###*/
 
+.rowHeader {
+	font-size: 22px;
+	line-height: 33px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 25px;
+}
+
+.sitemapRow {
+	font-size: 22px;
+	line-height: 33px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right:15%;
+}
+
+/*### POP-UP ###*/
+/* this makes the popup cool. like totally radikal. */
 .pop {
 	position:absolute;
 	width:800px;
@@ -139,23 +150,41 @@ h1 {
 
 /*------------------------IDs---------------------------------------------*/
 
+/*This styles the background of the content*/
 #contentBackground {
 	top: 0;
 	background-color: #FFF8FA;
 	box-shadow: 15px 15px 15px #333;
 }
 
+/*Used to style the text describing the site content ie. "Newest Reviews"*/
 #contentHeader {
 	padding-left: 50px;
 	padding-right: 0;
 }
 
+/*This is where the content like review, thumbnails etc. will be placed*/
 #content {
 	margin top: 30px;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 }
 
+/*Positions the search/filter field*/
+#search {
+	width: 200px;
+	margin-left: 190px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*Where the contentHeader and search bar are put together in one box*/
+#topNav {
+	width: 750px;
+	height: 100px;
+}
+
+/*The area the sitemap divs will be positioned*/
 #sitemap {
 	width: 650px;
   	padding-left: 50px;
@@ -163,28 +192,20 @@ h1 {
   	margin-bottom: 30px;
 }
 
-#topNav {
-	width: 750px;
-	height: 100px;
-}
-
-#search {
-	width: 200px;
-	margin-left: 175px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
+/*Inside here is the content of the review itself*/
 #reviewBox {
 	width: 600px;
 	padding-left: 10%;
 }
 
+/*Positioning of the navigational arrows on the index and category pages*/
 #arrows {
 	margin-left: 45%;
 }
 
 /*### NAVIGATION BAR ###*/
+
+/*Style for the navbar itself, AKA the pink rounded rectangle*/
 #nav {
 	width: 700px;
 	height: 50px;
@@ -195,6 +216,7 @@ h1 {
 	top: 250px;
 }
 
+/*The navbar drop down is made using a list structure, these are the styles for each of the levels*/
 #nav ul {
 	list-style: none;
 	padding-left: 17%;
@@ -254,7 +276,7 @@ h1 {
 
 /*### IMAGES ###*/
 
-/*This */
+/*This is the logo image*/
 #headerImage {
 	width: 500px;
 	height: 220px;
@@ -263,6 +285,7 @@ h1 {
 	padding-bottom: 15px;
 }
 
+/*This is the top-most picture in a review image*/
 #topImage {
 	height: 100%;
 	width: 100%;
