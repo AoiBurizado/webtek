@@ -59,6 +59,7 @@ h1 {
 
 /*----------------------CLASSES----------------------------------------------*/
 
+/* This box is used for thumbnails to confine them to a specific space*/
 .box {
 	width: 650px;
   	padding-left: 50px;
@@ -75,6 +76,14 @@ h1 {
   	text-align: justify;
 }
 
+/*Used to find reviews with the search function, but also need this to make the thumbnail more compact*/
+.reviewPreview {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*### IMAGES ###*/
+
 .thumbnailPicture {
 	height: 100px;
 	width: 28%;
@@ -90,20 +99,12 @@ h1 {
 	margin-top: 5px;
 }
 
+/*### REVIEW TEXT ###*/
+
 .reviewTitle {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 0px;
-}
-
-.reviewPreview {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.multimediaObject {
-	width: 400px;
-	height: 200px;
 }
 
 .pictureText {
@@ -114,7 +115,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
-/*### COLUMN POSITIONING ###*/
+/*### ROW POSITIONING ###*/
 
 .rowHeader {
 	font-size: 22px;
