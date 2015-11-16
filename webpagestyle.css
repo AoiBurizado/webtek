@@ -166,7 +166,7 @@ h1 {
 
 /*This is where the content like review, thumbnails etc. will be placed*/
 #content {
-	margin top: 10;
+	margin-top: 10px;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 }
