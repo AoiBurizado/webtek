@@ -37,7 +37,7 @@ a:hover {
 }
 
 h1 {
-	width: 650px;
+	width: 300px;
   	padding-right: 50px;
   	font-size: 25px;
   	font-weight: bold;
@@ -88,12 +88,13 @@ h1 {
 }
 */
 
-.sitemapColumn {
+.columnGroup {
 	font-size: 22px;
 	line-height: 33px;
+	width: 300px;
 	display: inline-block;
 	vertical-align: top;
-	padding-right: 15%;
+	padding-right: 25px;
 }
 
 .reviewTitle {
@@ -145,6 +146,7 @@ h1 {
 
 #contentHeader {
 	padding-left: 50px;
+	padding-right: 0;
 }
 
 #content {
@@ -158,6 +160,18 @@ h1 {
   	padding-left: 50px;
   	padding-right: 50px;
   	margin-bottom: 30px;
+}
+
+#topNav {
+	width: 750px;
+	height: 100px;
+}
+
+#search {
+	width: 200px;
+	margin-left: 175px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #reviewBox {
@@ -225,11 +239,6 @@ h1 {
 
 #nav li:hover li a:hover {
 	background:  #FF9FC5;
-}
-
-#search {
-	padding-top: 2%;
-	padding-left: 8%;
 }
 
 /*### VIDEO/MULTIMEDIA ###*/
